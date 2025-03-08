@@ -1,0 +1,46 @@
+{
+  "name": "vue-zoom-image",
+  "private": true,
+  "author": {
+    "name": "Martua Nasution",
+    "email": "marithonst@gmail.com"
+  },
+  "description": "Vue 3 Zoom Image",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Maritho/vue-zoom-image.git"
+  },
+  "license": "MIT",
+  "version": "0.0.1",
+  "type": "module",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/vue-zoom-image-lib.umd.cjs",
+  "module": "./dist/vue-zoom-image-lib.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-zoom-image-lib.js",
+      "require": "./dist/vue-zoom-image-lib.cjs"
+    },
+    "./style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "types": "vue-tsc ",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue3-carousel": "^0.14.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "vue-tsc": "^2.2.4"
+  }
+}
