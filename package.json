@@ -1,14 +1,22 @@
 {
-  "name": "vue-zoom-image",
-  "private": true,
+  "name": "vue-zoom-gallery",
   "author": {
     "name": "Martua Nasution",
     "email": "marithonst@gmail.com"
   },
   "description": "Vue 3 Zoom Image",
+  "keywords": [
+    "vue zoom image",
+    "vue 3 zoom image",
+    "vue 3 zoom image component",
+    "vue 3 zoom image plugin"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Maritho/vue-zoom-image.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maritho/vue-zoom-image/issues"
   },
   "license": "MIT",
   "version": "0.0.1",

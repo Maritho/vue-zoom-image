@@ -1,14 +1,14 @@
 <template>
 
-  <VueZoomImage
+  <VueZoomGallery
     :data="gallery"
     :zoom-level="2"
     :zoom-window-size="2">
-  </VueZoomImage>
+  </VueZoomGallery>
 </template>
 
 <script setup>
-import VueZoomImage from './libs/VueZoomImage.vue';
+import VueZoomGallery from './libs/VueZoomGallery.vue';
 import { reactive } from 'vue'
 
 const gallery = reactive([

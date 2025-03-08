@@ -9,8 +9,8 @@ export default defineConfig({
     lib: {
       // entry: 'src/main.js',
       entry: resolve(__dirname, "src/main.ts"),
-      name: 'VueZoomImage',
-      fileName: "vue-zoom-image",
+      name: 'VueZoomGallery',
+      fileName: "vue-zoom-gallery",
     },
     rollupOptions: {
       external: ['vue'],
