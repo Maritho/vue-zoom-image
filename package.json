@@ -1,5 +1,7 @@
 {
   "name": "vue-zoom-gallery",
+  "license": "MIT",
+  "version": "0.0.4",
   "author": {
     "name": "Martua Nasution",
     "email": "marithonst@gmail.com"
@@ -18,21 +20,17 @@
   "bugs": {
     "url": "https://github.com/Maritho/vue-zoom-image/issues"
   },
-  "license": "MIT",
-  "version": "0.0.2",
   "type": "module",
-  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "main": "./dist/vue-zoom-image-lib.umd.cjs",
-  "module": "./dist/vue-zoom-image-lib.js",
+  "main": "./dist/vue-zoom-gallery.umd.cjs",
+  "module": "./dist/vue-zoom-gallery.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-zoom-image-lib.js",
-      "require": "./dist/vue-zoom-image-lib.cjs"
+      "import": "./dist/vue-zoom-gallery.js"
     },
-    "./style.css": "./dist/style.css"
+    "./style.css": "./dist/vue-zoom-gallery.css"
   },
   "scripts": {
     "dev": "vite",
